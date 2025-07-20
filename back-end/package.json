@@ -1,0 +1,22 @@
+{
+  "name": "vyapatrack",
+  "version": "1.0.0",
+  "description": "A digital billing app for small shops",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
+  },
+  "author": "Shubham Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^6.11.1"
+  }
+}

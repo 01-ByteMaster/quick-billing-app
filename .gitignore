@@ -1,0 +1,28 @@
+
+# Node modules (both back-end & front-end)
+back-end/node_modules/
+front-end/node_modules/
+
+# build & dist folders
+back-end/dist/
+front-end/dist/
+front-end/build/
+
+# Environment files
+back-end/.env
+front-end/.env
+
+# Logs
+back-end/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated/compiled files
+back-end/src/generated/
